@@ -46,7 +46,7 @@ body {
 }
 a {
 	text-decoration:none;
-	color:#fff;
+	/*color:#fff;*/
 	outline:none;
 }
 
@@ -1132,7 +1132,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	}
 	
 	.education .workYear{
-		padding-top:58px;
+		padding-top:50px;
 	}
 }
 
