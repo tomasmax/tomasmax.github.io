@@ -433,7 +433,7 @@ header{
 ------------------------------------------------------*/
 
 .aboutme{
-	background:#00bdbd;
+	background:#4DA6C2;
 	color:#fff;
 	position:relative;
 }
@@ -491,7 +491,8 @@ header{
 	color:#474d5d;
 }
 .technical h2{
-	color:#ff675f;
+	color:#4595AF
+;
 }
 
 .technical .skillsArea{
@@ -575,7 +576,8 @@ header{
 }
 
 .exprience h2{
-	color:#ff675f;
+	color:#4595AF
+;
 }
 .exprience p{
 	color:#84868d;
@@ -600,7 +602,8 @@ header{
 .workYear{
 	font-size:17px;
 	color:#fff;
-	background:#ff675f;
+	background:#4595AF
+;
 	text-align:center;
 	width:120px;
 	height:120px;
@@ -652,7 +655,8 @@ header{
 }
 
 .education h2{
-	color:#ff675f;
+	color:#4595AF
+;
 }
 .education p{
 	color:#84868d;
@@ -686,19 +690,19 @@ header{
 /*----------------------------------------------------
  10. Protfolio Style
 ------------------------------------------------------*/
-.protfolio{
-	background:#2bb3dd;
+.portfolio{
+	background:#399CBB;
 }
-.protfolio .container{
+.portfolio .container{
 	padding-top:85px ;
 	padding-bottom:90px ;
 }
 
-.protfolio .heading p{
+.portfolio .heading p{
 	padding-bottom:41px;
 }
 
-.protfolio h4{
+.portfolio h4{
 	font-weight:700;
 }
 
@@ -816,7 +820,8 @@ span.hoverBox .zoom{
 	visibility:hidden;
 	width:42px;
 	height:42px;
-	background:#ff675f;
+	background:#4595AF
+;
 	color:#fff;
 	position: relative;
 	left:-150%;
@@ -945,7 +950,8 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 }
 
 .contact h2{
-	color:#ff675f;
+	color:#4595AF
+;
 }
 .contact p{
 	color:#84868d;
@@ -1037,7 +1043,8 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 
 
 .conForm .submitBnt{
-	background:#ff675f;
+	background:#4595AF
+;
 	font-family: 'Open Sans', sans-serif;
 	color:#fff;
 	font-size:16px;
@@ -1061,7 +1068,8 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	font-weight: 500;
 }
 .error_message{
-	color: #ff675f;
+	color: #4595AF
+;
 	padding-bottom: 15px;
 	font-weight: 500;
 }
