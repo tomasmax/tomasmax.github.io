@@ -76,7 +76,7 @@
 }
 #ui-lightbox-bottombar>p {
 	margin-right:20px;
-	height:46px;
+	height:56px;
 	line-height:20px;
 }
 #ui-lightbox-bottombar-bottom {
@@ -88,7 +88,7 @@
 	height:20px;
 	overflow:hidden;
 	text-align:left;
-	padding:10px 20px 0 30px;
+	padding:3px 20px 0 30px;
 }
 #ui-lightbox-counter {
 	font-size:9px;
