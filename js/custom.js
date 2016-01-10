@@ -123,3 +123,7 @@ $(window).load(function() {
 
 
 }(jQuery));
+
+$('.mapArea').click(function () {
+    $('.mapArea iframe').css("pointer-events", "auto");
+});
