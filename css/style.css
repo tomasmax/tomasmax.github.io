@@ -1291,6 +1291,9 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 		font-size: 18px;
 		line-height:24px;
 	}
+	.workYear {
+		font-size: 14px;
+	}
 }
 
 
