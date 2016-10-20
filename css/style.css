@@ -135,7 +135,7 @@ h4.subHeading{
 }
 
 .topmar{
-	margin-top:20px;
+	margin-top:2px;
 }
 
 
@@ -1235,6 +1235,9 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 		min-height: 85px;
 		
 	}
+	.topmar{
+		margin-top:15px;
+	}
 	
 }
 
@@ -1263,6 +1266,9 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	}
 	ul.navbar-nav li a{
 		display:block;
+	}
+	.topmar{
+		margin-top:15px;
 	}
 }
 
@@ -1293,6 +1299,9 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	}
 	.workYear {
 		font-size: 14px;
+	}
+	.topmar{
+		margin-top:15px;
 	}
 }
 
