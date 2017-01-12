@@ -634,7 +634,6 @@ header{
     border-radius: 50%;
 }
 
-
 .arrowpart{
 	float:left;
 	width:15px;
@@ -654,6 +653,16 @@ header{
 	color:#84868d;
 	line-height:21px;
 }
+
+.exCon ul li{
+	color:#84868d;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  padding-bottom: 5px;
+  margin-left:20px;
+}
+
 .exCon h4{
 	color:#474d5d;
 	padding-bottom:3px;
