@@ -1198,6 +1198,11 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	}
 }
 
+.proPic>img{
+	text-align:center;
+	max-width: 100%;
+}
+
 
 
 

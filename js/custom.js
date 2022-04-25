@@ -72,10 +72,8 @@ $(document).ready(function(e) {
 var index=0;
 $(document).scroll(function(){
 	var top = $('.technical').height()-$(window).scrollTop();
-	console.log(top)
-	if(top<-300){
+	if(top<-50){
 		if(index==0){	
-			
 			$('.chart').easyPieChart({
 				easing: 'easeOutBounce',
 				onStep: function(from, to, percent) {
@@ -87,7 +85,6 @@ $(document).scroll(function(){
 		index++;
 	}
 })
-//console.log(nagativeValue)
 });
 
 
