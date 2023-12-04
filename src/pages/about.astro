@@ -1,0 +1,101 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+import ContactCTA from "../components/ContactCTA.astro";
+import Hero from "../components/Hero.astro";
+import ResumeItem from "../components/ResumeItem.astro";
+import { educationItems } from "../content/about/resume";
+---
+
+<BaseLayout
+  title="About | Tomas Madariaga"
+  description="About Tomas Madariaga Lorem Ipsum"
+>
+  <div class="stack gap-20">
+    <main class="wrapper about">
+      <Hero
+        title="About"
+        tagline="Thanks for stopping by. Read below to learn more about myself and my background."
+      >
+        <img
+          width="1553"
+          height="873"
+          src="/assets/surfing.jpg"
+          alt="Tomas Madariaga focused surfing a wave"
+        />
+      </Hero>
+
+      <section>
+        <h2 class="section-title">Background</h2>
+        <div class="content">
+          <p>
+            Experienced <b>Full Stack Software Engineer</b> with over 10 years
+            of experience working on high-traffic, fast-scaling, and complex
+            systems. Proven leadership in guiding teams and mentoring engineers.
+            I enjoy developing scalable, performance oriented, and easy to
+            maintain well-tested code. Passionate about fostering teamwork and
+            providing honest feedback.
+          </p>
+        </div>
+      </section>
+      <section>
+        <h2 class="section-title">Education</h2>
+        {
+          educationItems.map((education) => (
+            <ResumeItem
+              date={education.date}
+              title={education.title}
+              description={education.description}
+            />
+          ))
+        }
+      </section>
+    </main>
+  </div>
+
+  <ContactCTA />
+</BaseLayout>
+
+<style>
+  .about {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+
+  img {
+    margin-top: 1.5rem;
+    border-radius: 1.5rem;
+    box-shadow: var(--shadow-md);
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: var(--gray-200);
+  }
+
+  .section-title {
+    grid-column-start: 1;
+    font-size: var(--text-xl);
+    color: var(--gray-0);
+  }
+
+  @media (min-width: 50em) {
+    .about {
+      display: grid;
+      grid-template-columns: 1fr 60% 1fr;
+    }
+
+    .about > :global(:first-child) {
+      grid-column-start: 2;
+    }
+
+    section {
+      display: contents;
+      font-size: var(--text-lg);
+    }
+  }
+</style>
