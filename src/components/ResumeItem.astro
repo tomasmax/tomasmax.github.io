@@ -1,0 +1,46 @@
+---
+interface Props {
+  date: string;
+  title: string;
+  description: string;
+}
+
+const { date, description, title } = Astro.props;
+---
+
+<p class="date">{date}</p>
+<div class="content">
+  <h3 class="item-title">
+    {title}
+  </h3>
+  <p>{description}</p>
+</div>
+
+<style>
+  .date {
+    grid-column-start: 1;
+    font-size: var(--text-lg);
+    color: var(--gray-0);
+  }
+
+  .item-title {
+    grid-column: 2 / 4;
+    font-size: var(--text-lg);
+    color: var(--gray-0);
+  }
+
+  .content {
+    grid-column: 2 / 4;
+  }
+
+  .content :global(a) {
+    text-decoration: 1px solid underline transparent;
+    text-underline-offset: 0.25em;
+    transition: text-decoration-color var(--theme-transition);
+  }
+
+  .content :global(a:hover),
+  .content :global(a:focus) {
+    text-decoration-color: currentColor;
+  }
+</style>
