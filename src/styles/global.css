@@ -217,6 +217,12 @@ h5 {
   flex-direction: column;
 }
 
+.stack-row {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
 .gap-2 {
   gap: 0.5rem;
 }
@@ -243,6 +249,9 @@ h5 {
 }
 
 @media (min-width: 50em) {
+  .stack-row {
+    flex-direction: row;
+  }
   .lg\:gap-2 {
     gap: 0.5rem;
   }

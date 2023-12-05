@@ -7,6 +7,8 @@ import ContactCTA from "../components/ContactCTA.astro";
 import PortfolioPreview from "../components/PortfolioPreview.astro";
 import Hero from "../components/Hero.astro";
 import Grid from "../components/Grid.astro";
+import CallToAction from "../components/CallToAction.astro";
+import Icon from "../components/Icon.astro";
 
 const projects = (await getCollection("work")).sort(
   (a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf()
@@ -19,11 +21,21 @@ const projects = (await getCollection("work")).sort(
 >
   <div class="stack gap-20">
     <main class="wrapper stack gap-8">
-      <Hero
-        title="My Work"
-        tagline="See my most recent projects below to get an idea of my past experience."
-        align="start"
-      />
+      <div class="stack-row">
+        <Hero
+          title="My Work"
+          tagline="See my most recent projects below to get an idea of my past experience."
+          align="start"
+        />
+        <div class="cta">
+          <CallToAction
+            href="https://drive.google.com/file/d/1goMRl5Tg_iaXbeuJKbjmVRnPtfA1wJfV/view?usp=sharing"
+          >
+            Get my CV document
+            <Icon icon="read-cv-logo" size="1.2em" />
+          </CallToAction>
+        </div>
+      </div>
       <Grid variant="offset">
         {
           projects.map((project) => (
@@ -37,3 +49,10 @@ const projects = (await getCollection("work")).sort(
     <ContactCTA />
   </div>
 </BaseLayout>
+
+<style>
+  .cta {
+    margin: auto;
+    flex-grow: 0.6;
+  }
+</style>
