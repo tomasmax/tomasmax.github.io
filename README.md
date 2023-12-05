@@ -1,4 +1,4 @@
-## 👀 My personal site created with Astro
+## 💯 My personal site created with Astro
 
 https://www.tomasmadariaga.com
 

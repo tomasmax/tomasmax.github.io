@@ -1,6 +1,6 @@
 ---
 title: Software Engineer
-publishDate: 2017-08-29 00:00:00
+publishDate: 2016-07-01 00:00:00
 img: /assets/indra.jpg
 img_alt: Indra office in the background
 description: |

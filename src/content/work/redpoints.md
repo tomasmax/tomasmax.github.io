@@ -19,7 +19,7 @@ tags:
 
 #### Barcelona
 
-- Led Front-End architecture and development using JavaScript, React & Redux and Node.js at Redpoints, the world class smart software suites for brand protection
+- Led Front-End architecture and development using JavaScript, React & Redux and Node.js at Redpoints, the world class smart software suites for brand protection.
 
 ­- Worked creating core functionality and components libraries (web platform). Storybook, Webpack, Rollup, Lerna...
 

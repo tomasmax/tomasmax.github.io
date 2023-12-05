@@ -17,6 +17,6 @@ tags:
 
 ##### Bilbao - Remote
 
-- ­Front End (React) and Back End (Node.js) development for different clients ­
+- ­Front End (React) and Back End (Node.js) development for different clients. ­
 
 - Tech e-learning instructor.
