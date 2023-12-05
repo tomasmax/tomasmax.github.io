@@ -1,6 +1,6 @@
 ---
 title: Freelance Full Stack Software Engineer
-publishDate: 2017-05-29 00:00:00
+publishDate: 2016-02-01 00:00:00
 img: /assets/freelance.png
 img_alt: A person working with a computer in a desktop.
 description: |
