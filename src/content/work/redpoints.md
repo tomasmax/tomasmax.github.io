@@ -1,5 +1,5 @@
 ---
-title: Lead Front End Engineer
+title: Lead Front End Engineer, Redpoints
 publishDate: 2018-11-01 00:00:00
 img: /assets/redpoints.png
 img_alt: Redpoints logo
@@ -15,7 +15,7 @@ tags:
 
 ### <a href="https://www.redpoints.com//">Redpoints</a>
 
-#### Jan. 2018 - Nov. 2018
+#### Jan. 2018 - Dec. 2018
 
 #### Barcelona
 

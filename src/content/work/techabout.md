@@ -1,5 +1,5 @@
 ---
-title: Software Engineer Internship
+title: Software Engineer Internship, Techabout
 publishDate: 2012-07-01 00:00:00
 img: /assets/meetabout.jpg
 img_alt: Techabout meetabout electronic device.

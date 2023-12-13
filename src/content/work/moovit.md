@@ -1,5 +1,5 @@
 ---
-title: Full Stack Software Engineer
+title: Full Stack Software Engineer, Moovit
 publishDate: 2017-08-29 00:00:00
 img: /assets/moovit.jpg
 img_alt: Moovit logo over a city

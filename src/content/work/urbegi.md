@@ -1,5 +1,5 @@
 ---
-title: Software Engineer
+title: Software Engineer, Urbegi
 publishDate: 2014-12-01 00:00:00
 img: /assets/urbegi.jpg
 img_alt: Urbegi logo.
@@ -12,6 +12,8 @@ tags:
 ---
 
 ## Software Engineer
+
+### <a href="https://www.urbegi.com">Urbegi</a>
 
 #### Feb. 2013 - Dec. 2014
 
