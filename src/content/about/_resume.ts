@@ -1,4 +1,10 @@
-export const educationItems = [
+export interface ResumeItem {
+  date: string;
+  title: string;
+  description: string;
+}
+
+export const educationItems: ResumeItem[] = [
   {
     date: 'Mar. - Nov. 2014',
     title: 'Advanced Agile Project Management Postgraduate Degree',

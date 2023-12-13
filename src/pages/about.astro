@@ -4,7 +4,9 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import ContactCTA from "../components/ContactCTA.astro";
 import Hero from "../components/Hero.astro";
 import ResumeItem from "../components/ResumeItem.astro";
-import { educationItems } from "../content/about/resume";
+import { Image } from "astro:assets";
+import aboutImg from "../assets/surfing.jpg";
+import { educationItems } from "../content/about/_resume";
 ---
 
 <BaseLayout title="About | Tomas Madariaga" description="About Tomas Madariaga">
@@ -14,11 +16,13 @@ import { educationItems } from "../content/about/resume";
         title="About"
         tagline="Thanks for stopping by. Read below to learn more about myself and my background."
       >
-        <img
+        <Image
+          src={aboutImg}
+          alt="Tomas Madariaga focused surfing a wave"
+          widths={[240, 540, 720, aboutImg.width]}
           width="1553"
           height="873"
-          src="/assets/surfing.jpg"
-          alt="Tomas Madariaga focused surfing a wave"
+          sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${aboutImg.width}px`}
         />
       </Hero>
 

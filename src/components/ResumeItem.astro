@@ -1,9 +1,7 @@
 ---
-interface Props {
-  date: string;
-  title: string;
-  description: string;
-}
+import type { ResumeItem } from "../content/about/_resume";
+
+type Props = ResumeItem;
 
 const { date, description, title } = Astro.props;
 ---
