@@ -21,6 +21,6 @@ tags:
 
 - Led Front-End architecture and development using JavaScript, React & Redux and Node.js at Redpoints, the world class smart software suites for brand protection.
 
-­- Worked creating core functionality and components libraries (web platform). Storybook, Webpack, Rollup, Lerna...
+- Worked creating core functionality and components libraries (web platform). Storybook, Webpack, Rollup, Lerna...
 
 - Led a team of 9 engineer, mentoring and coaching engineers on the team. Spread the best engineering and dev practices. Actively participated in recruiting, growing the team from 3 to 9.
