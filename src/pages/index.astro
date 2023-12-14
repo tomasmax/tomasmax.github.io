@@ -46,9 +46,10 @@ const projects = (await getCollection("work"))
         <Image
           src={portraitImg}
           alt="Tomas Madariaga smiling in a white shirt and sunglasses"
+          widths={[240, 540, 720, portraitImg.width]}
           width="480"
           height="620"
-          densities={[1.5, 2]}
+          sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${portraitImg.width}px`}
           loading="eager"
         />
       </header>
@@ -60,10 +61,7 @@ const projects = (await getCollection("work"))
       <section class="section with-background with-cta">
         <header class="section-header stack gap-2 lg:gap-4">
           <h3>Selected Work</h3>
-          <p>
-            Take a look below at some of my featured work for companies I have
-            been working for.
-          </p>
+          <p>Take a look below at my most recent work.</p>
         </header>
 
         <div class="gallery">
