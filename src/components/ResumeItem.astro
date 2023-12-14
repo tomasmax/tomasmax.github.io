@@ -1,9 +1,10 @@
 ---
-import type { ResumeItem } from "../content/about/_resume";
+import type { z } from "astro:content";
+import type { ResumeItemSchema } from "../schemas";
 
-type Props = ResumeItem;
+type Props = z.infer<typeof ResumeItemSchema>;
 
-const { date, description, title } = Astro.props;
+const { date, title, description } = Astro.props;
 ---
 
 <p class="date">{date}</p>

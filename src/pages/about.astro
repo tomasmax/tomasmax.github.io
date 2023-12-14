@@ -6,7 +6,9 @@ import Hero from "../components/Hero.astro";
 import ResumeItem from "../components/ResumeItem.astro";
 import { Image } from "astro:assets";
 import aboutImg from "../assets/surfing.jpg";
-import { educationItems } from "../content/about/_resume";
+import { getEntry } from "astro:content";
+
+const educationItems = await getEntry("about", "education");
 ---
 
 <BaseLayout title="About | Tomas Madariaga" description="About Tomas Madariaga">
@@ -42,7 +44,7 @@ import { educationItems } from "../content/about/_resume";
       <section>
         <h2 class="section-title">Education</h2>
         {
-          educationItems.map((education) => (
+          educationItems.data.map((education) => (
             <ResumeItem
               date={education.date}
               title={education.title}
