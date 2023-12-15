@@ -83,6 +83,7 @@ const { Content } = await entry.render();
     display: flex;
     gap: 0.5rem;
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   .description {
@@ -151,6 +152,10 @@ const { Content } = await entry.render();
 
     .content :global(blockquote) {
       font-size: var(--text-2xl);
+    }
+
+    .tags {
+      justify-content: start;
     }
   }
 </style>
