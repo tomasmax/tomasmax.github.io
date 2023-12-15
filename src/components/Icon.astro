@@ -1,9 +1,9 @@
 ---
 import type { HTMLAttributes } from "astro/types";
-import { iconPaths } from "./IconPaths";
+import { iconPaths, type IconPathKey } from "./IconPaths";
 
 interface Props {
-  icon: keyof typeof iconPaths;
+  icon: IconPathKey;
   color?: string;
   gradient?: boolean;
   size?: string;
