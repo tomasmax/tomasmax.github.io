@@ -1,37 +1,21 @@
 ---
 import "./index.scss";
-import Icon from "../Icon.astro";
+
+import Skill from "./Skill.astro";
+import { getDataEntryById } from "astro:content";
+import type { IconPathKey } from "../IconPaths";
+
+const skills = await getDataEntryById("home", "skills");
 ---
 
 <section class="box skills">
-  <div class="stack gap-2 lg:gap-4">
-    <Icon icon="trophy" color="var(--accent-regular)" size="2.5rem" gradient />
-    <h2>Problem solving</h2>
-    <p>
-      Strong analytical and problem-solving skills. I like to break down complex
-      problems into manageable parts.
-    </p>
-  </div>
-  <div class="stack gap-2 lg:gap-4">
-    <Icon
-      icon="terminal-window"
-      color="var(--accent-regular)"
-      size="2.5rem"
-      gradient
-    />
-    <h2>Full Stack</h2>
-    <p>
-      I enjoy developing both frontend and backend components of a software
-      application, demonstrating proficiency across the entire software
-      development stack.
-    </p>
-  </div>
-  <div class="stack gap-2 lg:gap-4">
-    <Icon icon="code" color="var(--accent-regular)" size="2.5rem" gradient />
-    <h2>Web Development</h2>
-    <p>
-      Deep knowledge of web development technologies, including HTML, CSS,
-      Typescript and JavaScript, along with frameworks like React, Next.js...
-    </p>
-  </div>
+  {
+    skills.data.map((skill) => (
+      <Skill
+        title={skill.title}
+        description={skill.description}
+        icon={skill.icon as IconPathKey}
+      />
+    ))
+  }
 </section>

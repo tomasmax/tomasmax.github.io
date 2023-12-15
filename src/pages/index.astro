@@ -46,10 +46,10 @@ const projects = (await getCollection("work"))
         <Image
           src={portraitImg}
           alt="Tomas Madariaga smiling in a white shirt and sunglasses"
-          widths={[240, 540, 720, portraitImg.width]}
+          widths={[400, 800, 1200]}
           width="480"
           height="620"
-          sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${portraitImg.width}px`}
+          sizes={`(max-width: 360px) 400px, (max-width: 720px) 800px, (max-width: 1600px) 1200px`}
           loading="eager"
         />
       </header>

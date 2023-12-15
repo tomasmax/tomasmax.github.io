@@ -1,0 +1,18 @@
+---
+import type { z } from "astro/zod";
+import Icon from "../Icon.astro";
+import type { SkillSchema } from "../../schemas";
+import type { IconPathKey } from "../IconPaths";
+
+type Props = z.infer<typeof SkillSchema> & { icon: IconPathKey };
+
+const { title, description, icon } = Astro.props;
+---
+
+<div class="stack gap-2 lg:gap-4">
+  <Icon icon={icon} color="var(--accent-regular)" size="2.5rem" gradient />
+  <h2>{title}</h2>
+  <p>
+    {description}
+  </p>
+</div>

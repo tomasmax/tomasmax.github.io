@@ -6,9 +6,9 @@ import Hero from "../components/Hero.astro";
 import ResumeItem from "../components/ResumeItem.astro";
 import { Image } from "astro:assets";
 import aboutImg from "../assets/surfing.jpg";
-import { getEntry } from "astro:content";
+import { getDataEntryById } from "astro:content";
 
-const educationItems = await getEntry("about", "education");
+const educationItems = await getDataEntryById("about", "education");
 ---
 
 <BaseLayout title="About | Tomas Madariaga" description="About Tomas Madariaga">

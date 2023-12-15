@@ -7,8 +7,10 @@ description: |
   Senior Full Stack Software engineer in Adevinta for more than 4 years. Building performant marketplaces for international markets.
 tags:
   - Front end
-  - Back end
+  - Leadership
   - Testing
+  - Mentoring
+  - Back end
 ---
 
 ## Senior Software Engineer

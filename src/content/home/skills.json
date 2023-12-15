@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Problem solving",
+    "description": "Strong analytical and problem-solving skills. I like to break down complex problems into manageable parts.",
+    "icon": "trophy"
+  },
+  {
+    "title": "Full Stack",
+    "description": "I enjoy developing both frontend and backend components of a software application, demonstrating proficiency across the entire software development stack.",
+    "icon": "terminal-window"
+  },
+  {
+    "title": "Web Development",
+    "description": "Deep knowledge of web development technologies, including HTML, CSS, Typescript and JavaScript, along with frameworks like React, Next.js...",
+    "icon": "code"
+  }
+]

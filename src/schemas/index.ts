@@ -1,16 +1,28 @@
 import { z } from "astro/zod";
+import { iconPathKeys } from "../components/IconPaths";
 
-export const WorkSchema = z.object({
+const WorkSchema = z.object({
   title: z.string(),
   description: z.string(),
   publishDate: z.coerce.date(),
   tags: z.array(z.string()),
   img: z.string(),
-  img_alt: z.string().optional(),
+  img_alt: z.string().optional()
 });
 
-export const ResumeItemSchema = z.object({
+const ResumeItemSchema = z.object({
   date: z.string(),
   title: z.string(),
-  description: z.string(),
+  description: z.string()
 });
+
+const [firstKey, ...otherKeys] = iconPathKeys
+
+const SkillSchema = z.object({
+  title: z.string(),
+  description: z.string(),
+  icon: z.enum([firstKey, ...otherKeys])
+});
+
+
+export { WorkSchema, ResumeItemSchema, SkillSchema }

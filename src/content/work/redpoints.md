@@ -7,8 +7,9 @@ description: |
   Led front end team, architecture and development using JavaScript, React & Redux and Node.js at Redpoints.
 tags:
   - Front end
-  - Leadership
   - React
+  - Leadership
+  - Mentoring
 ---
 
 ## Lead Front End Engineer
